@@ -1,3 +1,14 @@
+# Competed Articles
+## 1.What Is Promise In Angular? [here](https://www.c-sharpcorner.com/blogs/what-is-promise-in-angular)
+
+
+# Most Used Commands 
+<code> > ng new TestCsharpcornerExamples    </code>
+<code> > npm start    </code>
+<code> >ng g module shared --route --routing    </code>
+<code> >ng g s PromiseService/promise    </code>
+
+
 # TestCsharpcornerExamples
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
