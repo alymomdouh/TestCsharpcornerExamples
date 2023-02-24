@@ -1,13 +1,27 @@
 # Competed Articles
 ## 1.What Is Promise In Angular? [here](https://www.c-sharpcorner.com/blogs/what-is-promise-in-angular)
+## 2.htmlhint [here](https://htmlhint.com/docs/user-guide/getting-started)
+## 3.Template-Driven And Reactive Forms In Angular [here](https://www.c-sharpcorner.com/blogs/templatedriven-and-reactive-forms-in-angular)
 
 
 # Most Used Commands 
+## 1.
 ##### <code> > ng new TestCsharpcornerExamples </code>
 ##### <code> > npm start  </code>
 ##### <code> >ng g module shared --route --routing    </code>
 ##### <code> >ng g s PromiseService/promise    </code>
+----------------------------------------------------------
+## 2.
+ ##### <code> >npm install --save-dev htmlhint </code>
+ ##### <code> >npx htmlhint "**/*.html" </code>
 
+----------------------------------------------------------
+## 3.
+ ##### <code> >ng g module forms --route --routing </code>
+ ##### <code> >ng g c template-driven-form</code>
+ ##### <code> >ng g c reactive-form</code>
+----------
+  
 
 # TestCsharpcornerExamples
 
