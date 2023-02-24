@@ -3,10 +3,10 @@
 
 
 # Most Used Commands 
-<code> > ng new TestCsharpcornerExamples    </code>
-<code> > npm start    </code>
-<code> >ng g module shared --route --routing    </code>
-<code> >ng g s PromiseService/promise    </code>
+##### <code> > ng new TestCsharpcornerExamples </code>
+##### <code> > npm start  </code>
+##### <code> >ng g module shared --route --routing    </code>
+##### <code> >ng g s PromiseService/promise    </code>
 
 
 # TestCsharpcornerExamples
