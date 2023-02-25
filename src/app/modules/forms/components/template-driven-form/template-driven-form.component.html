@@ -1,0 +1,8 @@
+<h1>Template Driven Form</h1>
+<form #myForm="ngForm">
+    <label>Name:</label>
+    <input type="text" name="name" [(ngModel)]="name" required>
+    <label>Email:</label>
+    <input type="email" name="email" [(ngModel)]="email" required>
+    <button type="submit" [disabled]="!myForm.valid">Submit</button>
+</form>

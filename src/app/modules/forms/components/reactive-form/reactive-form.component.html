@@ -1,0 +1,8 @@
+<h1>Rreactive Form</h1>
+<form [formGroup]="myForm">
+    <label>Name:</label>
+    <input type="text" formControlName="name">
+    <label>Email:</label>
+    <input type="email" formControlName="email">
+    <button type="submit" [disabled]="!myForm.valid">Submit</button>
+</form>

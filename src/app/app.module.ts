@@ -1,18 +1,19 @@
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormModule } from './modules/forms/form.module';
+import { SharedModule } from './modules/shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    //BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    //HttpClientModule,
+    FormModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
