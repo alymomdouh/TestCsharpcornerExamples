@@ -1,0 +1,52 @@
+<div [formGroup]="addressForm">
+    <h4>Address Info</h4>
+    <div class="row">
+        <div class="col col-xs-6">
+            <div class="form-group">
+                <label class="control-label">State</label>
+                <input type="text" formControlName="state" class="form-control" placeholder="State" />
+
+                <div *ngIf="state?.invalid && (isFormSubmitted || state?.dirty || state?.touched)"
+                    class="invalid-feedback" style="display: block">
+                    <span *ngIf="state?.errors?.['required']">State is required</span>
+                </div>
+            </div>
+        </div>
+        <div class="col col-xs-6">
+            <div class="form-group">
+                <label class="control-label">City</label>
+                <input type="text" formControlName="city" class="form-control" placeholder="City" />
+
+                <div *ngIf="city?.invalid && (isFormSubmitted || city?.dirty || city?.touched)" class="invalid-feedback"
+                    style="display: block">
+                    <span *ngIf="city?.errors?.['required']">City is required</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col col-xs-6">
+            <div class="form-group">
+                <label class="control-label">Street</label>
+                <input type="text" formControlName="street" class="form-control" placeholder="Street" />
+
+                <div *ngIf="street?.invalid && (isFormSubmitted || street?.dirty || street?.touched)"
+                    class="invalid-feedback" style="display: block">
+                    <span *ngIf="street?.errors?.['required']">Street is required</span>
+                </div>
+            </div>
+        </div>
+        <div class="col col-xs-6">
+            <div class="form-group">
+                <label class="control-label">Zip</label>
+                <input type="text" formControlName="zip" class="form-control" placeholder="Zip" />
+
+                <div *ngIf="zip?.invalid && (isFormSubmitted || zip?.dirty || zip?.touched)" class="invalid-feedback"
+                    style="display: block">
+                    <span *ngIf="zip?.errors?.['required']">Street is required</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

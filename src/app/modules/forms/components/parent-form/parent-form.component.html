@@ -1,0 +1,51 @@
+<div class="container-fluid">
+    <h2>User Details</h2>
+    <small>(Click on save button without filling out the form and then fill the necessary details to see validations in
+        action)</small>
+    <br><br>
+    <form [formGroup]="userForm" (ngSubmit)="saveUserForm()">
+        <div class="row">
+            <div class="col col-xs-12">
+                <h4>Basic Info</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">First Name</label>
+                    <input type="text" formControlName="firstName" class="form-control" placeholder="First Name" />
+
+                    <div *ngIf="firstName?.invalid && (isFormSubmitted || firstName?.dirty || firstName?.touched)"
+                        class="invalid-feedback" style="display: block">
+                        <span *ngIf="firstName?.errors?.['required']">First Name is required</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-xs-6">
+                <div class="form-group">
+                    <label class="control-label">Last Name</label>
+                    <input type="text" formControlName="lastName" class="form-control" placeholder="Last Name" />
+
+                    <div *ngIf="lastName?.invalid && (isFormSubmitted || lastName?.dirty || lastName?.touched)"
+                        class="invalid-feedback" style="display: block">
+                        <span *ngIf="lastName?.errors?.['required']">Last Name is required</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-user-address-info [isFormSubmitted]="isFormSubmitted"
+            (formCreated)="formInitialized(addressFormGroupKey, $event)"></app-user-address-info>
+
+        <div class="form-group">
+            <button class="btn btn-primary">Save</button>
+        </div>
+    </form>
+    <div>
+        <div>
+            Is Form Valid: {{userForm.valid}}
+        </div>
+        <pre>
+        {{userForm.value | json}}
+      </pre>
+    </div>
+</div>

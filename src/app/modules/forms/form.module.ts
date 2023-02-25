@@ -6,13 +6,17 @@ import { TemplateDrivenFormComponent } from './components/template-driven-form/t
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormHomeComponent } from './components/form-home/form-home.component';
+import { UserAddressInfoComponent } from './components/user-address-info/user-address-info.component';
+import { ParentFormComponent } from './components/parent-form/parent-form.component';
 
 
 @NgModule({
   declarations: [
     TemplateDrivenFormComponent,
     ReactiveFormComponent,
-    FormHomeComponent
+    FormHomeComponent,
+    UserAddressInfoComponent,
+    ParentFormComponent
   ],
   imports: [
     CommonModule,

@@ -4,6 +4,10 @@
 ## 3.Template-Driven And Reactive Forms In Angular [here](https://www.c-sharpcorner.com/blogs/templatedriven-and-reactive-forms-in-angular)
 ## 4.Angular Reactive Typed Form [here](https://www.c-sharpcorner.com/blogs/angular-reactive-typed-form)
 ## 5.Reactive Forms Email And Password Pattern Validations In Angular [here](https://www.c-sharpcorner.com/blogs/email-and-password-pattern-in-angular)
+## 6.Angular Partial Reactive Forms (here)[https://www.c-sharpcorner.com/blogs/angular-partial-reactive-forms]
+##### full source code (here)[https://stackblitz.com/edit/angular-yfdyuc?file=src%2Fapp%2Fapp.component.html]
+## 7.How to install Bootstrap in Angular application (How to install Bootstrap in Angular application)[https://medium.com/@technicadil_001/how-to-install-bootstrap-5-in-angular-15-application-bdf4b1dcdad]
+
 # Most Used Commands 
 ## 1.
 ##### <code> > ng new TestCsharpcornerExamples </code>
@@ -21,9 +25,15 @@
  ##### <code> >ng g c template-driven-form</code>
  ##### <code> >ng g c reactive-form</code>
  ##### <code> >ng g c form-home</code>
-----------
+-------------------------------------------------------
+  ## 6. 
+  ##### <code> >  ng g c user-address-info </code>
+  ##### <code> >  ng g c parent-form </code>
+  ##### <code> >  npm install bootstrap </code>
+  ##### <code> >  npm install jquery --save </code>
+  ##### <code> > npm install popper.js --save </code>
   
-
+ 
 # TestCsharpcornerExamples
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
