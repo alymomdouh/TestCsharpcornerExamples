@@ -20,6 +20,7 @@
  ##### <code> >ng g module forms --route --routing </code>
  ##### <code> >ng g c template-driven-form</code>
  ##### <code> >ng g c reactive-form</code>
+ ##### <code> >ng g c form-home</code>
 ----------
   
 
