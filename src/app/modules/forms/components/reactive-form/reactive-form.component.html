@@ -6,3 +6,24 @@
     <input type="email" formControlName="email">
     <button type="submit" [disabled]="!myForm.valid">Submit</button>
 </form>
+<hr>
+<h1> article two or example two </h1>
+<form (ngSubmit)="onSubmit()" [formGroup]="typedForm">
+    <div>
+        <label for="name">Name:</label>
+        <input formControlName="name" id="name">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input formControlName="email" id="email">
+    </div>
+    <div>
+        <label for="message">Message:</label>
+        <textarea formControlName="message" id="message"></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset" (click)="onResetSubmit()">Reset</button>
+    </div>
+</form>
+<p>{{submittedData}}</p>

@@ -2,7 +2,7 @@
 ## 1.What Is Promise In Angular? [here](https://www.c-sharpcorner.com/blogs/what-is-promise-in-angular)
 ## 2.htmlhint [here](https://htmlhint.com/docs/user-guide/getting-started)
 ## 3.Template-Driven And Reactive Forms In Angular [here](https://www.c-sharpcorner.com/blogs/templatedriven-and-reactive-forms-in-angular)
-
+## 4.Angular Reactive Typed Form [here](https://www.c-sharpcorner.com/blogs/angular-reactive-typed-form)
 
 # Most Used Commands 
 ## 1.
