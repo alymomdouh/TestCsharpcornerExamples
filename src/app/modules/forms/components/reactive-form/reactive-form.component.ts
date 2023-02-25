@@ -8,11 +8,22 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 })
 export class ReactiveFormComponent implements OnInit {
   myForm!: FormGroup;
-  constructor(private formBuilder: FormBuilder) { }
+
+  constructor(
+    private formBuilder: FormBuilder
+  ) { }
   ngOnInit() {
     this.myForm = this.formBuilder.group({
       name: ['', Validators.required],
-      email: ['', Validators.required]
+      //email: ['', Validators.required]
+      Email: ['', [
+        Validators.required, Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$')
+      ]
+      ],
+      Password: ['',
+        [Validators.required, Validators.pattern('(?=.*[A-Za-z])(?=.*[0-9])(?=.*[$@$!#^~%*?&,.<>"\'\\;:\{\\\}\\\[\\\]\\\|\\\+\\\-\\\=\\\_\\\)\\\(\\\)\\\`\\\/\\\\\\]])[A-Za-z0-9\d$@].{7,}')
+        ]
+      ],
     });
   }
   /// example two

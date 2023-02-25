@@ -3,7 +3,7 @@
 ## 2.htmlhint [here](https://htmlhint.com/docs/user-guide/getting-started)
 ## 3.Template-Driven And Reactive Forms In Angular [here](https://www.c-sharpcorner.com/blogs/templatedriven-and-reactive-forms-in-angular)
 ## 4.Angular Reactive Typed Form [here](https://www.c-sharpcorner.com/blogs/angular-reactive-typed-form)
-
+## 5.Reactive Forms Email And Password Pattern Validations In Angular [here](https://www.c-sharpcorner.com/blogs/email-and-password-pattern-in-angular)
 # Most Used Commands 
 ## 1.
 ##### <code> > ng new TestCsharpcornerExamples </code>
