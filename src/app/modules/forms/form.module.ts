@@ -9,8 +9,7 @@ import { FormHomeComponent } from './components/form-home/form-home.component';
 import { UserAddressInfoComponent } from './components/user-address-info/user-address-info.component';
 import { ParentFormComponent } from './components/parent-form/parent-form.component';
 import { TextEditorFormComponent } from './components/text-editor-form/text-editor-form.component';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -26,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CommonModule,
     FormRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SharedModule
   ]
 })
 export class FormModule { }

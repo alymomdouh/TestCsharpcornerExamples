@@ -45,8 +45,10 @@ update all npm versions
   ##### <code> > npm install quill </code>
   ##### <code> > npm install @types/quill@1.3.10 </code>
   ##### <code> > npm install quill-blot-formatter </code>
-  ##### <code> >  npm install --save @angular/material@13.0.0 </code>
+  ##### <code> > npm i @angular/material@13.3.1 </code>
   ##### <code> >  npm install --save @angular/material @angular/cdk </code>
+  ##### <code> > npm install @angular/material @angular/cdk @angular/animations --save </code>
+  ##### <code> > ng add @angular/material</code>
   ##### <code> >  npm cache clear --force </code>
  
 # TestCsharpcornerExamples
