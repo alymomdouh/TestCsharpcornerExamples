@@ -4,6 +4,7 @@ import { FormHomeComponent } from './components/form-home/form-home.component';
 import { ParentFormComponent } from './components/parent-form/parent-form.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { TemplateDrivenFormComponent } from './components/template-driven-form/template-driven-form.component';
+import { TextEditorFormComponent } from './components/text-editor-form/text-editor-form.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: 'parent-child-form',
         component: ParentFormComponent
+      },
+      {
+        path: "rich-text-editor",
+        component: TextEditorFormComponent
       }
     ]
   }

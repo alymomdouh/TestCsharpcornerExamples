@@ -8,6 +8,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormHomeComponent } from './components/form-home/form-home.component';
 import { UserAddressInfoComponent } from './components/user-address-info/user-address-info.component';
 import { ParentFormComponent } from './components/parent-form/parent-form.component';
+import { TextEditorFormComponent } from './components/text-editor-form/text-editor-form.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -16,9 +19,12 @@ import { ParentFormComponent } from './components/parent-form/parent-form.compon
     ReactiveFormComponent,
     FormHomeComponent,
     UserAddressInfoComponent,
-    ParentFormComponent
+    ParentFormComponent,
+    TextEditorFormComponent
   ],
   imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
     CommonModule,
     FormRoutingModule,
     FormsModule,

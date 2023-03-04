@@ -7,8 +7,13 @@
 ## 6.Angular Partial Reactive Forms (here)[https://www.c-sharpcorner.com/blogs/angular-partial-reactive-forms]
 ##### full source code (here)[https://stackblitz.com/edit/angular-yfdyuc?file=src%2Fapp%2Fapp.component.html]
 ## 7.How to install Bootstrap in Angular application (How to install Bootstrap in Angular application)[https://medium.com/@technicadil_001/how-to-install-bootstrap-5-in-angular-15-application-bdf4b1dcdad]
+## 8.How to Develop a Rich Text Editor App with Angular 14 (here)[https://javascript.plainenglish.io/how-to-develop-a-rich-text-editor-app-with-angular-14-4c7c91096201] (Article code)[https://github.com/rubykv/pica-mix]
+
 
 # Most Used Commands 
+update all npm versions 
+##### <code> > npm install -g npm </code>
+--------------------------------------------------------
 ## 1.
 ##### <code> > ng new TestCsharpcornerExamples </code>
 ##### <code> > npm start  </code>
@@ -29,10 +34,20 @@
   ## 6. 
   ##### <code> >  ng g c user-address-info </code>
   ##### <code> >  ng g c parent-form </code>
-  ##### <code> >  npm install bootstrap </code>
+  ##### <code> >  npm install bootstrap --save </code>
   ##### <code> >  npm install jquery --save </code>
   ##### <code> > npm install popper.js --save </code>
-  
+  ----------------------------------------------------------------
+  ## 8.
+  #####  version is according  with angular 13
+  ##### <code> > ng generate component text-editor-form </code>
+  ##### <code> > npm install ngx-quill@15.0.0 </code>
+  ##### <code> > npm install quill </code>
+  ##### <code> > npm install @types/quill@1.3.10 </code>
+  ##### <code> > npm install quill-blot-formatter </code>
+  ##### <code> >  npm install --save @angular/material@13.0.0 </code>
+  ##### <code> >  npm install --save @angular/material @angular/cdk </code>
+  ##### <code> >  npm cache clear --force </code>
  
 # TestCsharpcornerExamples
 
