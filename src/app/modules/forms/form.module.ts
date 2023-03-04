@@ -10,6 +10,8 @@ import { UserAddressInfoComponent } from './components/user-address-info/user-ad
 import { ParentFormComponent } from './components/parent-form/parent-form.component';
 import { TextEditorFormComponent } from './components/text-editor-form/text-editor-form.component';
 import { SharedModule } from '../shared/shared.module';
+import { QuillModule } from 'ngx-quill';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { SharedModule } from '../shared/shared.module';
     FormRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    QuillModule.forRoot(),
+    MatButtonModule
   ]
 })
 export class FormModule { }
