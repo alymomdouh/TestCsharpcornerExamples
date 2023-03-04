@@ -23,8 +23,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TextEditorFormComponent
   ],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
     CommonModule,
     FormRoutingModule,
     FormsModule,
